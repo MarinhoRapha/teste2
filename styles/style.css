@@ -128,7 +128,7 @@ form input[type=submit]{
 	cursor: pointer;
 }
 
-@media screen and (max-width: 605px){
+@media screen and (max-width: 320px){
 	.form-w textarea{
 	min-width: 430px;
 	max-width: 430px;
