@@ -130,10 +130,10 @@ form input[type=submit]{
 
 @media screen and (max-width: 600px){
 	.form-w textarea{
-	max-width: 200px;
-	width: 80%;	
-	min-height: 100px;
-	max-height: 100px;
+	width: 70%;
+	min-width: 400px;	
+	min-height: 100%;
+	height: 100px;
 	padding: 10px;
 	}
 
