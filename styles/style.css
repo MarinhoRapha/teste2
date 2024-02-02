@@ -24,6 +24,7 @@ html,body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: 0 2% 
 }	
 
 .form-container{
@@ -32,6 +33,7 @@ html,body{
 	background-color: rgba(15, 11, 41, 0.9);
 	margin-top: 50px;
 	border-radius: 30px;
+
 }
 
 h2.apresentacao{
@@ -126,3 +128,21 @@ form input[type=submit]{
 	cursor: pointer;
 }
 
+@media screen and (max-width: 605px){
+	.form-w textarea{
+	min-width: 430px;
+	max-width: 430px;
+	min-height: 100px;
+	max-height: 100px;
+	padding: 10px;
+	}
+
+	form input[type=submit]{
+	width: 430px;
+	height: 40px;
+	}
+
+	form input[type=text],form input[type=email],form input[type=number],form input[type=tel]{
+	width: 430px
+	}
+}
