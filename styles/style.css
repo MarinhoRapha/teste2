@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	background-image: url('../imagens/images.jpg');
+	background-size: cover;
+}
+
+
+.formulario{
+	width: 100%;
+
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}	
+
+.form-container{
+	width: 600px;
+	background-color: rgba(15, 11, 41, 0.9);
+	position: absolute;
+	top: 15%;
+	left: 34%;
+	margin-top: 10px;
+	border-radius: 30px;
+}
+
+h2.apresentacao{
+	color: white;
+	font-size: 30px;	
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+}
+
+p.apresentacao{
+	color: white;
+	font-size: 20px;	
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+}
+
+.form-container form{
+	margin-top: 40px;
+	padding: 15px;
+
+}
+
+.form-container form p{
+	font-size: 18px;
+	margin-bottom: 5px;
+	color: white;
+}
+
+form input[type=checkbox]{
+	padding: 10px;
+	margin: 10px 5px;
+}
+
+label{
+	color: white;
+}
+
+form input[type=file]{
+	color: white;
+}
+
+form input[type=text],form input[type=email],form input[type=number],form input[type=tel]{
+	width: 500px;
+	height: 25px;
+	margin-left: 20px;
+	padding: 10px;
+	margin-top: 5px;
+}
+.form-wraper p{
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+form input[type=file], form input[type=checkbox]{
+	margin-left: 20px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+.form-w{
+	margin-left: 10px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+
+.form-w textarea{
+	min-width: 500px;
+	max-width: 500px;
+	min-height: 100px;
+	max-height: 100px;
+	padding: 10px;
+}
+
+form input[type=submit]{
+	margin-left: 20px;
+	width: 500px;
+	height: 40px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: green;
+	border: 0;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+}
